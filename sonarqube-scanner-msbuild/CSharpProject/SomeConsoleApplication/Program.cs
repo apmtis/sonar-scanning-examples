@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SomeConsoleApplication
 {
-    public class Program
+    public static class Program
     {
 
         public const bool AlwaysReturnsTrue = true;
