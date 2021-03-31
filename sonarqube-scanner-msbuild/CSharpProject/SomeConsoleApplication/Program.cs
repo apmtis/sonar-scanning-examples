@@ -3,6 +3,8 @@ namespace SomeConsoleApplication
 {
     public class Program
     {
+
+        private const bool AlwaysReturnsTrue = true;
         static void Main(string[] args)
         {
             var iAmTrue = true;
@@ -16,11 +18,6 @@ namespace SomeConsoleApplication
             }
 
             Console.ReadKey();
-        }
-
-        public static bool AlwaysReturnsTrue()
-        {
-            return true;
         }
 
         public static object Passthrough(object obj)
