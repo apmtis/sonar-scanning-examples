@@ -11,7 +11,7 @@ namespace SomeConsoleApplicationTest
         public void AlwaysReturnsTrue_ReturnsTrue()
         {
             // Arrange & Act
-            var actual = Program.AlwaysReturnsTrue();
+            var actual = Program.AlwaysReturnsTrue;
 
             // Assert
             Assert.IsTrue(actual);

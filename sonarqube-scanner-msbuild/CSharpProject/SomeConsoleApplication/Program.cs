@@ -4,7 +4,7 @@ namespace SomeConsoleApplication
     public class Program
     {
 
-        private const bool AlwaysReturnsTrue = true;
+        public const bool AlwaysReturnsTrue = true;
         static void Main(string[] args)
         {
             var iAmTrue = true;
